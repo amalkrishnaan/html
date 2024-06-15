@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new form</title>
+</head>
+<body>
+    
+    <h1><u>Job Application Form</u> </h1>
+    <form action="/About.html">
+        <h3>enter your name</h3>
+        <table>
+            <tr>
+                <td colspan="3"><label for="name">Name</label></td>
+                <span><td><input type="text" placeholder="first name" id="name"></td><td rowspan="3"><input type="text" placeholder="last name" id="name"></td></span>
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <tr>
+                
+                <span>
+                <td> <label for="age">Age</label></td>
+                <td><input type="number" placeholder="enter your age" id="age"></td>
+            
+               
+                <td><label for="place">Place</label></td>
+                <td><input type="text" placeholder="enter your place" id="place"></td>
+                </span>
+            </tr>
+            
+            <span>
+                <td><label for="addr">address</label></td>
+                <td><textarea name="address" placeholder="enter your current address" id="addr"></textarea></td>
+
+                <td><label for="email">Email</label></td>
+                <td><input type="text" placeholder="enter your email"></td>
+             <tr>
+                <td><label for="experience">experience</label></td>
+                 <td><input type="text" placeholder="experience / fresher"></td>
+
+                 <td><label for="skill">skill</label></td>
+                 <td><input type="text" placeholder="skill"></td>
+              </tr>   
+            </span>
+            </tr>
+        </table>
+        <h4>choose your gender</h4>
+        <table>
+            <tr>
+               <!---- <td><label for="gen">select your gender</label></td>-->
+
+             <td>
+                <label for="gen"></label>
+                <input name="gender" value="male" type="radio" id="gen"> male</td>
+               <td> <input name="gender" value="female" type="radio" >  female
+                </td>
+            </tr>
+            <tr>
+                <input name="gender" value="other" type="radio" id="gen">other</tr>
+                <tr><input name="gender" value="not prefer to say" type="radio" id="gen">not prefer to say
+            </tr>
+        </table>
+        <table>
+            <span>
+            <tr>
+                <td>
+                    <h4>what position are you applying for</h4>
+                    <select name="select" id="opt">
+                        <option value="">--select--</option>
+                        <option value="manager">manager</option>
+                        <option value="hr">hr</option>
+                        <option value="accountant">accountant</option>
+                        <option value="assistant manager">assistant manager</option>
+                    </select>
+                    <td>
+                        <h4> and its available month</h4>
+                        <label for="mon"> month </label>
+                        <input type="month" id="mon">
+                    </td>
+
+                    
+                </td>
+            </tr>
+            </span>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <h4>attach your resum</h4>
+               <div> <td><label for="inp">resume</label>
+                <input type="file"></td></div>
+
+            </tr>
+        </table>
+
+        <br>
+        <table>
+            <tr>
+                <td>
+                <input type="submit">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
